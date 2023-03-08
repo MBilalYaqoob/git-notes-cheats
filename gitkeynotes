@@ -1,0 +1,123 @@
+History
+Collaburations merging of codes on the same file
+feature branches
+
+
+
+Project = Repositary(repo)
+working directory
+staging
+commit
+
+https://github.com/LearnWebCode/super-advance-website
+
+
+if you want to check wether github is insatalled on your pc or not type
+git --version
+
+git config --global user.name "MBY"
+
+git config --global user.email "youremail@gmail.com"
+
+to check your current directory is type
+
+pwd
+
+to change the current working directory type
+
+cd and drag the folder to it .
+
+ for creating directory type
+ 
+ mkdir "BO"
+ 
+cd BO
+
+
+let the git start tracking this current directory please type
+
+git init
+
+touch "index.html"
+
+git status 
+
+git add index.html
+
+git commit -m 'type your message here'
+
+to load a working directory from other link
+
+git clone https://github.com/LearnWebCode/welcome-to-git.git
+
+git remote -v
+origin  https://github.com/LearnWebCode/travel-site-files.git (fetch)
+origin  https://github.com/LearnWebCode/travel-site-files.git (push)
+
+git remote set-url origin https://github.com/MBilalYaqoob/travel-site.git
+
+git push origin master
+
+a stands for all where ever change occours just commit it .
+git commit -a
+
+{open .
+cd ..
+ls
+clear
+cd des+tab
+up and down arrow to walk through commands
+git config --list
+
+to show commit history
+git log
+git log -2
+:Q
+git remote
+git remote -v
+
+
+
+
+git remote add origin https://Muhammad_Bilal_Yaqoob@bitbucket.org/Muhammad_Bilal_Yaqoob/bo_xstek.git
+git push -u origin master
+
+git reset commit_SHA first 7 numbers of last commit 
+
+git checkout HEAD filename: Discards changes in the working directory.
+
+git reset commit_SHA: Resets to a previous commit in your commit history.
+
+
+git show head (to see the changes)
+
+git checkout HEAD filename
+
+git diff
+
+git add filename_1 filename_2
+
+git reset HEAD filename: Unstages file changes in the staging area.
+
+git branch (to check on which branch i m )
+
+
+$ git branch fencing
+$ git branch
+  fencing
+* master
+
+$ git checkout fencing
+
+git merge
+What if you wanted include all the changes made to the fencing branch on the master branch? We can easily accomplish this by merging the branch into master with:
+
+git merge branch_name
+For example, if I wanted to merge the skills branch to master, I would enter
+
+git merge skills
+In a moment, you'll merge branches. Keep in mind:
+
+Your goal is to update master with changes you made to fencing.
+fencing is the giver branch, since it provides the changes.
+master is the receiver branch, since it accepts those changes.
